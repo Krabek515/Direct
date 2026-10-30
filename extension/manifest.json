@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Direct",
+  "version": "0.9.0",
+  "default_locale": "en",
+  "description": "__MSG_description__",
+  "permissions": [
+    "proxy",
+    "storage",
+    "tabs",
+    "contextMenus",
+    "nativeMessaging",
+    "alarms",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Direct",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2e8dxnV9q0kxuKQiieQvWP6RTHWxiyPVVOf300SFAGYumpMpJ7A5t5PuxoG7qC+kVm4FJ4DPmjA1JJdQVO+wX7R/105q8kky65Ac/6K7hZGo45ecyQ56ifmPaxv60a90aHefB7MuPAMtjbk+skY/bvlVlypBPj45fF63WgkKXajgerZk5b8m1/URixQ2TRUN6NONkqEmhhGbB4vcmN2TxOccE/aztNgAYek5+HH2D2sTwVfDpPXoqSNG6tl3fZoposnsogCn7OA7O05cg9xt5DnQUY29LxhtnaoQymIRNOr9XyC5kYSjGMT3qXuZI4W6YS1AIydAryUdlK/sEfn4SQIDAQAB"
+}

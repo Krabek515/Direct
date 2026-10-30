@@ -1,0 +1,9 @@
+{
+  "name": "com.offvpn.proxy",
+  "description": "Reads the current Windows proxy port for Direct",
+  "path": "C:\\Users\\User\\Desktop\\OffVPN\\extension\\host\\proxy-host.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://fhelgdelndffpllpbcgoajhnbaamegmg/"
+  ]
+}

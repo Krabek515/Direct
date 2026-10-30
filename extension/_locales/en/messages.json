@@ -1,0 +1,5 @@
+{
+  "description": {
+    "message": "Green arrow: direct connection. Gray arrow: through the proxy."
+  }
+}
